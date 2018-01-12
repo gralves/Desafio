@@ -1,0 +1,52 @@
+
+    <nav class="navbar navbar-light bg-faded navHeader">
+        <div class="row">
+            <div class="col-md-2 dvHeader"><img src="assets\img\logo.PNG" class="logo"></div>
+            <div class="col-md-6 dvHeader">
+                <div class="input-group">
+                    <span class="input-group-addon spanIconGroup"><i class="glyphicon glyphicon-search"></i></span>
+                    <input (keyup.enter)="getFilter()" [(ngModel)]="filtro" id="search" type="text" class="form-control inputSearch"  placeholder="Buscar">
+                  </div>
+            </div>
+            <div class="col-md-4 dvHeader"></div>
+        </div>
+    </nav>
+    
+    <nav class="navbar navbar-default navbar-menu">
+        <div class="container-fluid">
+         
+          <ul class="nav navbar-nav">
+            <li><a (click)="getTodos()">Home</a></li>
+            <li><a (click)="getEstrangeiras()">Literatura Estrangeira</a></li>
+            <li><a (click)="getBrasileiras()">Literatura Brasileira</a></li>
+          </ul>
+        </div>
+      </nav>
+    
+      <div class="row dvOrder">
+            <div class="col-md-2" style="margin: 7px; margin-left: 12px;">
+                    <select class="form-control" id="sel1" [ngModel]="orderSelect" (ngModelChange)="onChange($event)">
+                            <option value="1">A-Z</option>
+                            <option value="2">Z-A</option>
+                          </select>
+          </div>
+      </div>
+
+        <div class="" *ngIf="!isDetalhe">
+            <h2 style="text-align: center">{{titulo}}</h2>
+            <div class="row ">
+                <div class="col-lg-3 col-md-4 col-sm-6 dvItem"   *ngFor="let item of navItems " (click)="getDetalhe(item)">
+                   
+                            <img src="{{item.img}}" class="imgProduto"><br>
+                            <label>{{item.descricao}}</label><br>
+                            <label>R${{item.preco}}</label>
+                </div>
+            </div>  
+        </div>
+
+        <div class="detalhe" *ngIf="isDetalhe">
+                <app-detalhe  [item]="item"></app-detalhe>
+               
+         </div>
+        
+            

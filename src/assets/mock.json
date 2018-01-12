@@ -1,0 +1,77 @@
+[
+  {
+    "tipo":1,
+    "descricao": "Harry Potter",
+    "preco": "59,90",
+    "img": "assets/img/harry_1.jpg",
+    "img2": "./assets/img/harry_1-1.jpg"
+  },
+  {
+    "tipo":1,
+    "descricao": "Anne Frank",
+    "preco": "39,90",
+    "img": "assets/img/anne_1.jpg",
+    "img2": "assets/img/anne_1-1.jpg"
+  },
+  {
+    "tipo":1,
+    "descricao": "O Poderoso Chefão",
+    "preco": "85,70",
+    "img": "assets/img/chefao_1.jpg",
+    "img2": "assets/img/chefao_1-1.jpg"
+  },
+  {
+    "tipo":1,
+    "descricao": "Game Of Thrones",
+    "preco": "119,90",
+    "img": "assets/img/got_1-1.jpg",
+    "img2": "assets/img/got_1.jpg"
+  },
+  {
+    "tipo":1,
+    "descricao": "The Cursed Child",
+    "preco": "49,90",
+    "img": "assets/img/harry_2.png",
+    "img2": "assets/img/harry_2-2.jpg"
+  },
+  {
+    "tipo":1,
+    "descricao": "Mitologia Nórdica",
+    "preco": "59,90",
+    "img": "assets/img/nordic_1.jpg",
+    "img2": "assets/img/nordic_1-1.jpg"
+  },
+  {
+    "tipo":1,
+    "descricao": "O Senhor dos Anéis",
+    "preco": "59,90",
+    "img": "assets/img/sda_1-1.jpg",
+    "img2": "assets/img/sda_1.jpg"
+  },
+  {
+    "tipo":2,
+    "descricao": "O Vendedor de Sonhos",
+    "preco": "19,90",
+    "img": "assets/img/sonhos_1.jpg",
+    "img2": "assets/img/sonhos_1-1.jpg"
+  },
+  {
+    "tipo":1,
+    "descricao": "O Código da Vinci",
+    "preco": "59,90",
+    "img": "assets/img/vinci_1-1.jpg",
+    "img2": "assets/img/vinci_1.jpg"
+  }, {
+    "tipo":2,
+    "descricao": "Violetas na Janela",
+    "preco": "30,00",
+    "img": "assets/img/violetas_1-1.jpg",
+    "img2": "assets/img/violetas_1.jpg"
+  }, {
+    "tipo":2,
+    "descricao": "O Homem mais inteligente da história",
+    "preco": "59,90",
+    "img": "assets/img/cury_1.jpg",
+    "img2": "assets/img/cury_1-1.jpg"
+  }
+]

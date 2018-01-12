@@ -1,0 +1,21 @@
+.dvImgCentral{
+    display: inline-block;
+   
+    background: #e1e1e1;
+}
+
+.colCentro{
+    text-align: center;
+}
+
+.lblTitulo{
+    font-size: 30px;
+}
+
+.container{
+    padding-top: 49px;
+}
+
+.dvDetalhes{
+    background: #e1e1e1;
+}
